@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Adarsh Krishna </title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="assets/CSS/style.css">
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursor-ring"></div>
+
+<!-- HEADER -->
+<header>
+  <div class="logo"><span>Adarsh</span>Krishna<span>.</span></div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#academics">Academics</a>
+    <a href="#skills">Skills</a>
+    <a href="#certifications">certifications</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="hamburger" id="hamburger">
+    <span></span><span></span><span></span>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobile-nav">
+  <a href="#home" onclick="closeMenu()">Home</a>
+  <a href="#about" onclick="closeMenu()">About</a>
+  <a href="#academics" onclick="closeMenu()">Academics</a>
+  <a href="#skills" onclick="closeMenu()">Skills</a>
+  <a href="#certifications" onclick="closeMenu()">Certifications</a>
+  <a href="#projects" onclick="closeMenu()">Projects</a>
+  <a href="#contact" onclick="closeMenu()">Contact</a>
+</div>
+
+<!-- HERO -->
+<section id="home">
+  <div class="hero-grid"></div>
+  <div class="hero-orb orb1"></div>
+  <div class="hero-orb orb2"></div>
+
+  <div class="hero-inner">
+    <div class="hero-content">
+      <div class="hero-label">Portfolio</div>
+      <h1 class="hero-name">Adarsh<br><span class="highlight">Krishna</span></h1>
+      <div class="hero-role">
+        <span class="typed-text" id="typed"></span><span class="cursor-blink"></span>
+      </div>
+      <p class="hero-bio">
+        Aspiring web developer with a strong academic background and hands-on experience in modern web technologies. Passionate about creating responsive, user-friendly applications and solving real-world problems through code. Comfortable working independently or as part of a collaborative team while continuously learning and improving technical skills
+      </p>
+      <div class="hero-cta">
+        <a href="https://drive.google.com/file/d/1DxzNusMt3pAqj-AMC3BMxTXYPPjfVVsW/view?usp=drive_link" download class="btn-primary">
+          <i class="fa-solid fa-download"></i> Download CV
+        </a>
+        <a href="#contact" class="btn-secondary">
+          <i class="fa-solid fa-paper-plane"></i> Get in Touch
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-num">3+</div>
+          <div class="stat-label">Projects</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">5+</div>
+          <div class="stat-label">Languages</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">2</div>
+          <div class="stat-label">Certifications</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-photo-wrap">
+      <div class="hero-photo-ring">
+        <div class="hero-photo-placeholder">
+          <i class="fa-solid fa-user"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-label">Who I Am</div>
+  <h2 class="section-title">Personal <em>Information</em></h2>
+
+  <div class="about-grid">
+    <div class="info-card reveal">
+      <div class="info-row">
+        <div class="info-icon"><i class="fa-solid fa-user"></i></div>
+        <div>
+          <div class="info-label">Full Name</div>
+          <div class="info-value">Adarsh Krishna</div>
+        </div>
+      </div>
+      <div class="info-row">
+        <div class="info-icon"><i class="fa-solid fa-cake-candles"></i></div>
+        <div>
+          <div class="info-label">Date of Birth</div>
+          <div class="info-value">05-08-2002</div>
+        </div>
+      </div>
+      <div class="info-row">
+        <div class="info-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+        <div>
+          <div class="info-label">Qualification</div>
+          <div class="info-value">MSc Computer Science</div>
+        </div>
+      </div>
+      <div class="info-row">
+        <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+        <div>
+          <div class="info-label">Location</div>
+          <div class="info-value">Palakkad, Kerala</div>
+        </div>
+      </div>
+      <div class="info-row">
+        <div class="info-icon"><i class="fa-solid fa-briefcase"></i></div>
+        <div>
+          <div class="info-label">Status</div>
+          <div class="info-value">Available for Opportunities</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bio-card reveal reveal-delay-1">
+      <div class="section-label" style="margin-bottom:16px;">About Me</div>
+      <p>
+        I'm a passionate software developer with a strong foundation in full-stack web technologies.
+        I enjoy building elegant, functional applications that solve real-world problems.
+      </p>
+      <br>
+      <p>
+        With experience in both front-end and back-end development, I thrive in environments that
+        challenge me to grow. I'm committed to writing clean, maintainable code and continuously
+        improving my craft through hands-on projects and learning.
+      </p>
+      <br>
+      <p>
+        My goal is to leverage my technical skills and creative thinking to make meaningful contributions
+        in a dynamic, growth-oriented organization.
+      </p>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ACADEMICS -->
+<section id="academics">
+  <div class="section-label">Education</div>
+  <h2 class="section-title">Academic <em>Journey</em></h2>
+
+  <div class="timeline">
+    <div class="timeline-item reveal">
+      <div class="timeline-card">
+        <div class="timeline-year">2023 – 2025</div>
+        <div class="timeline-degree">MSc Computer Science</div>
+        <div class="timeline-school">University of Calicut · Graduated 2025</div>
+      </div>
+    </div>
+
+    <div class="timeline-item reveal reveal-delay-1">
+      <div class="timeline-card">
+        <div class="timeline-year">2020 – 2023</div>
+        <div class="timeline-degree">Bachelor's Degree</div>
+        <div class="timeline-school"> University of Calicut· Graduated 2023</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-label">Expertise</div>
+  <h2 class="section-title">Technical <em>Skills</em></h2>
+
+  <div class="skills-grid">
+    <div class="skill-card reveal">
+      <div class="skill-icon cyan"><i class="fa-solid fa-code"></i></div>
+      <div class="skill-name">Programming Languages</div>
+      <div class="tags">
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">Python</span>
+        <span class="tag">Java</span>
+        <span class="tag">Node.js</span>
+      </div>
+    </div>
+
+    <div class="skill-card reveal reveal-delay-1">
+      <div class="skill-icon purple"><i class="fa-solid fa-layer-group"></i></div>
+      <div class="skill-name">Frameworks & Libraries</div>
+      <div class="tags">
+        <span class="tag">React</span>
+        <span class="tag">Express.js</span>
+        <span class="tag">Flask</span>
+      </div>
+    </div>
+
+    <div class="skill-card reveal reveal-delay-2">
+      <div class="skill-icon red"><i class="fa-solid fa-database"></i></div>
+      <div class="skill-name">Databases</div>
+      <div class="tags">
+        
+        <span class="tag">MongoDB</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+  <div class="section-label">Credentials</div>
+  <h2 class="section-title">My <em>Certifications</em></h2>
+
+  <div class="cert-grid">
+    <div class="cert-card reveal">
+      <div class="cert-badge">🏆</div>
+      <div class="cert-body">
+        <div class="cert-title">MERN Stack: All You Need to Know with Practical Project</div>
+        <div class="cert-issuer">Udemy · 2026</div>
+        <a href="https://www.linkedin.com/posts/adarsh-krishna-k_fullstackdevelopment-nodejs-expressjs-share-7434459998048411649-fnZp?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAD55ulYBDt4Ot4sYkNrqrvPUE3Xy-QZgLKs" target="_blank" class="cert-link">
+          View Certificate <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="cert-card reveal reveal-delay-1">
+      <div class="cert-badge">🎓</div>
+      <div class="cert-body">
+        <div class="cert-title">Python and Flask Framework Complete Course for Beginners</div>
+        <div class="cert-issuer">Udemy · 2026</div>
+        <a href="https://www.linkedin.com/posts/adarsh-krishna-k_python-flask-webdevelopment-share-7434459085565218816-DIoN?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAD55ulYBDt4Ot4sYkNrqrvPUE3Xy-QZgLKs" target="_blank" class="cert-link">
+          View Certificate <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-label">Work</div>
+  <h2 class="section-title">Featured <em>Projects</em></h2>
+
+  <div class="projects-grid">
+    <div class="project-card reveal">
+      <div class="project-num">01</div>
+      <div class="project-title">
+        <a href="www.google.com" target="_blank">
+          Portfolio Website
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+      </div>
+      <p class="project-desc">
+        A responsive personal portfolio website built using HTML, CSS, and JavaScript — showcasing skills, projects, and contact information with modern UI/UX.
+      </p>
+      <div class="project-stack">
+        <span class="stack-tag">HTML</span>
+        <span class="stack-tag">CSS</span>
+        <span class="stack-tag">JavaScript</span>
+      </div>
+    </div>
+
+    <div class="project-card reveal reveal-delay-1">
+      <div class="project-num">02</div>
+      <div class="project-title">
+        <a href="https://github.com/AdarshKrishna788/Task-Manager">
+          Task Manager
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+      </div>
+      <p class="project-desc">
+       
+A simple and lightweight task manager app that helps you quickly note small tasks or reminders. You can easily keep track of what needs to be done and mark tasks as completed with a single button once they’re finished, keeping your list organized and up to date. 
+      </p>
+      <div class="project-stack">
+        <span class="stack-tag">React</span>
+        <span class="stack-tag">Express.js</span>
+        <span class="stack-tag">MongoDB</span>
+        
+      </div>
+    </div>
+
+    <div class="project-card reveal reveal-delay-2">
+      <div class="project-num">03</div>
+      <div class="project-title">
+        <a href="https://github.com/AdarshKrishna788/hospital-appoinment">
+          Hospital Management System
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+      </div>
+      <p class="project-desc">
+        A web-based Hospital Management System built with Python and Flask. Manages patient records, doctor details, and appointment scheduling with a user-friendly interface.
+      </p>
+      <div class="project-stack">
+        <span class="stack-tag">Python</span>
+        <span class="stack-tag">Flask</span>
+        <span class="stack-tag">MySQL</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-label">Get In Touch</div>
+  <h2 class="section-title">Let's <em>Connect</em></h2>
+
+  <div class="contact-grid">
+    <div class="contact-text">
+      <h3>Open to new opportunities</h3>
+      <p>
+        Whether you have a project in mind, a role to fill, or just want to talk tech —
+        my inbox is always open. I'll get back to you as soon as possible.
+      </p>
+
+      <div class="contact-links">
+        <a href="mailto:adarshkrishna788@gmail.com" class="contact-link-item reveal">
+          <div class="contact-link-icon"><i class="fa-solid fa-envelope"></i></div>
+          <div>
+            <div class="contact-link-label">Email</div>
+            <div class="contact-link-value">adarshkrishna788@gmail.com</div>
+          </div>
+        </a>
+
+        <a href="tel:+919895952694" class="contact-link-item reveal reveal-delay-1">
+          <div class="contact-link-icon"><i class="fa-solid fa-phone"></i></div>
+          <div>
+            <div class="contact-link-label">Phone</div>
+            <div class="contact-link-value">+91 9895952694</div>
+          </div>
+        </a>
+
+        <a href="https://github.com/AdarshKrishna788" target="_blank" class="contact-link-item reveal reveal-delay-2">
+          <div class="contact-link-icon"><i class="fa-brands fa-github"></i></div>
+          <div>
+            <div class="contact-link-label">GitHub</div>
+            <div class="contact-link-value">github.com/AdarshKrishna788</div>
+          </div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/adarsh-krishna-k/" target="_blank" class="contact-link-item reveal reveal-delay-3">
+          <div class="contact-link-icon"><i class="fa-brands fa-linkedin"></i></div>
+          <div>
+            <div class="contact-link-label">LinkedIn</div>
+            <div class="contact-link-value">linkedin.com/in/adarsh-krishna-k/</div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="availability-card reveal reveal-delay-1">
+      <div class="avail-dot">Available Now</div>
+      <div class="avail-title">Looking for<br><em>Opportunities</em></div>
+      <p class="avail-text">
+        I'm currently open to full-time roles and internship opportunities in web development.
+        Let's build something great together.
+      </p>
+      <a href="https://drive.google.com/file/d/1DxzNusMt3pAqj-AMC3BMxTXYPPjfVVsW/view?usp=drive_link" download class="btn-primary" style="width:fit-content">
+        <i class="fa-solid fa-download"></i> Download My CV
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-text">© 2025 <span>Adarsh Krishna</span></div>
+  <div class="footer-socials">
+    <a href="https://github.com/AdarshKrishna788" target="_blank" class="footer-social"><i class="fa-brands fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/adarsh-krishna-k/" target="_blank" class="footer-social"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="mailto:adarshkrishna@gmail.com" class="footer-social"><i class="fa-solid fa-envelope"></i></a>
+  </div>
+</footer>
+
+<script src="assets/JS/main.js"></script>
+</body>
+</html>
